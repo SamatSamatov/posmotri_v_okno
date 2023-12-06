@@ -294,15 +294,15 @@ fieldset {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 
 .search-form__pseudo-checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   border: 1px solid #fff;
   background-color: transparent;
 }

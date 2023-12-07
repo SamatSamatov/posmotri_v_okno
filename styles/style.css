@@ -50,7 +50,7 @@ ol {
 }
 
 .search-form {
-  padding-top: 16px;
+  padding-block-start: 16px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -95,13 +95,13 @@ ol {
 }
 
 .content__list-item {
-  margin-top: 30px;
+  margin-block-start: 30px;
   min-inline-size: 194px;
   min-block-size: 103px;
 }
 
 .content__list-item:first-child {
-  margin-top: 0px;
+  margin-block-start: 0px;
 }
 
 .content__card-link {
@@ -161,14 +161,14 @@ ol {
 
 .search-form__fieldset-title {
   color: #FFF;
-  font-family: 'Fira Sans Condensed', 'Arial';
+  font-family: 'Fira Sans Condensed', 'Arial', 'sans-serif';
   font-size: 18px;
   font-weight: 400;
 }
 
 .title {
   color: #FFF;
-  font-family: 'Oswald', 'Arial';
+  font-family: 'Oswald', 'Arial', 'sans-serif';
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -183,7 +183,7 @@ ol {
 
 .content__video-card-title {
   color: #FFF;
-  font-family: 'Oswald', 'Arial';
+  font-family: 'Oswald', 'Arial', 'sans-serif';
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -211,13 +211,13 @@ ol {
 
 fieldset {
   border: none;
-  font-family: 'Fira Sans Condensed', 'Arial';
+  font-family: 'Fira Sans Condensed', 'Arial', 'sans-serif';
   font-weight: 400;
 }
 
 .button {
   cursor: pointer;
-  font-family: 'Fira Sans Condensed', 'Arial';
+  font-family: 'Fira Sans Condensed', 'Arial', 'sans-serif';
   border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
@@ -324,7 +324,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
 }
 
 .more-button {
-  margin-top: 29px;
+  margin-block-start: 29px;
   padding: 6px 136px;
   inline-size: 100%;
 }

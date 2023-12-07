@@ -281,8 +281,8 @@ fieldset {
 
 .search-form__label:has(.search-form__textfield:active) {
   outline: none;
-  border-left: 1px solid #FFF;
-  border-right: 1px solid #FFF;
+  border-inline-start: 1px solid #FFF;
+  border-inline-end: 1px solid #FFF;
 }
 
 .search-form__textfield:focus-visible {
